@@ -1,5 +1,5 @@
 import numpy as np
-
+import math
 
 class Dense():
     def __init__(self, n_x, n_y, seed=1):
