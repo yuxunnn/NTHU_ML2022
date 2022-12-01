@@ -1,5 +1,4 @@
 import numpy as np
-import math
 
 class Dense():
     def __init__(self, n_x, n_y, seed=1):
@@ -23,7 +22,7 @@ class Dense():
 
         ### PASTE YOUR CODE HERE ###
         ### START CODE HERE ### 
-        limit = math.sqrt(6 / (self.n_y + self.n_x))
+        limit = np.sqrt(6 / (self.n_y + self.n_x))
         W = np.random.uniform(-limit, limit, size=(self.n_y, self.n_x))
         b = np.zeros((self.n_y, 1))
         ### END CODE HERE ###
