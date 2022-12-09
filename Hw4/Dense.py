@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Dense():
     def __init__(self, n_x, n_y, seed=1):
         self.n_x = n_x
